@@ -25,7 +25,7 @@ application/controllers/examples2.php
 application/controllers/build.php
 application/controllers/welcome.php
 application/views/example2.php
-application/core/
+application/core/index.html
 application/errors/
 application/helpers/
 application/hooks/
