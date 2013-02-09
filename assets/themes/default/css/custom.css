@@ -1,0 +1,38 @@
+.big-code, .big-code pre, .big-code pre.php
+{
+	font-size: 16px !important;	
+}
+.bsa_it_p{
+	display:none !important;
+}
+.via_ad_packs{
+	text-align:right;
+	background: #F0F0F0 !important;
+	border:1px solid #EEE;
+	border: 1px solid rgba(0, 0, 0, 0.15) !important;
+	border-top:none !important;
+	padding-right:5px;
+	padding-bottom:5px;
+	border-radius: 0px 0px 6px 6px;
+}
+.one .bsa_it_ad{
+	border:1px solid #EEE !important;
+	border: 1px solid rgba(0, 0, 0, 0.15) !important;
+	border-bottom:none !important;
+	border-radius: 6px 6px 0px 0px;
+	background: #F0F0F0 !important;
+}
+.classic-table
+{
+	width: 100%;
+	border-bottom: 1px solid #CCC;
+	border-right: 1px solid #CCC;
+}
+.classic-table tr td, .classic-table tr th
+{
+	border: 1px solid #CCC;
+	border-right: none;
+	border-bottom: none;
+	padding: 5px;
+	text-align: left;
+}

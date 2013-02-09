@@ -1,0 +1,9 @@
+v.0.6
+	Load CSS files
+	Load JS files
+	Set Template
+	Set Sections
+	Set Meta Data
+	Load CSS and JS files inside the view
+	Unset Template
+	
