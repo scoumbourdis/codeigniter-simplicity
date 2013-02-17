@@ -1,0 +1,7 @@
+Codeigniter Simplicity
+Copyright (C) 2013  John Skoumbourdis.
+
+Codeigniter Simplicity is released with grocery CRUD license with dual licensing, using the GPL v3 and the MIT license.
+You don't have to do anything special to choose one license or the other and you don't have to notify anyone which license you are using.
+Please see the corresponding license file for details of these licenses at: https://github.com/scoumbourdis/grocery-crud/blob/master/license-grocery-crud.txt
+You are free to use, modify and distribute this software, but all copyright information must remain.
