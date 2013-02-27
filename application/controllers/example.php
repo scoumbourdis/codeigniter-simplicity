@@ -7,11 +7,18 @@ class Example extends CI_Controller {
 		parent::__construct();
 	
 		$this->load->helper('url');
+		
+		$this->output->set_template('default');
 	}	
 	
 	public function index()
 	{
-		$this->output->set_template('default');
-		$this->load->view('simplicity_welcome');		
+		
+		$this->load->view('ci_simplicity/welcome');		
 	}
+	
+	public function about()
+	{
+		$this->load->view('ci_simplicity/about');		
+	}	
 }
