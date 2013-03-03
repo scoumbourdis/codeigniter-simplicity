@@ -1,13 +1,5 @@
 	<h1>Welcome to CodeIgniter Simplicity!</h1>
 
 	<div id="body">
-		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
-
-		<p>If you would like to edit this page you'll find it located at:</p>
-		<code>application/views/welcome_message.php</code>
-
-		<p>The corresponding controller for this page is found at:</p>
-		<code>application/controllers/welcome.php</code>
-
-		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula, libero sit amet sagittis placerat, velit metus imperdiet augue, ac mollis nunc turpis ultrices sapien. Pellentesque suscipit convallis placerat. Duis libero urna, tempor quis convallis non, facilisis nec arcu. Integer convallis tincidunt metus eu lobortis. Aliquam erat volutpat. Pellentesque id sem justo. Proin eget nulla ligula. Suspendisse ultrices fringilla libero, nec pretium lacus tincidunt tincidunt. Suspendisse potenti. Cras arcu turpis, sagittis eu tincidunt nec, iaculis a metus.</p>
 	</div>

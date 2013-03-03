@@ -113,9 +113,9 @@
           <div style="height: 0px;" class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="<?php echo site_url(); ?>">Home</a></li>
-			  <li><a href="<?php echo site_url('example/about'); ?>">About</a></li>
-              <li><a href="<?php echo site_url('example/documentation'); ?>">Documentation</a></li>
-              <li><a href="<?php echo site_url('example/download'); ?>">Download</a></li>
+			  <li><a href="<?php echo site_url('example/example_1'); ?>">Example 1</a></li>
+              <li><a href="<?php echo site_url('example/example_2'); ?>">Example 2</a></li>
+              <li><a href="<?php echo site_url('example/example_3'); ?>">Example 3</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
