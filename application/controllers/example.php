@@ -23,6 +23,7 @@ class Example extends CI_Controller {
 
 	public function example_2()
 	{
+		$this->output->set_template('simple');
 		$this->load->view('ci_simplicity/example_2');
 	}
 

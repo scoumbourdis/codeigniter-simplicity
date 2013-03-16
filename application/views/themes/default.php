@@ -21,6 +21,22 @@
 		<meta name="title" content="<?php echo $title; ?>" />
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+		<script src="<?php echo base_url('assets/themes/default/js/jquery-1.9.1.min.js'); ?>"></script>
+		<script src="<?php echo base_url('assets/themes/default/hero_files/bootstrap-transition.js'); ?>"></script>
+		<script src="<?php echo base_url('assets/themes/default/hero_files/bootstrap-collapse.js'); ?>"></script>
+
+<?php
+		 foreach($css as $file){
+		 	echo "\n\t\t";
+			?><link rel="stylesheet" href="<?php echo $file; ?>" type="text/css" /><?php
+		 } echo "\n\t";
+
+		 foreach($js as $file){
+				echo "\n\t\t";
+				?><script src="<?php echo $file; ?>"></script><?php
+		 } echo "\n\t";
+?>
+
     <!-- Le styles -->
     <link href="<?php echo base_url(); ?>assets/themes/default/hero_files/bootstrap.css" rel="stylesheet">
     <link href="<?php echo base_url(); ?>assets/themes/default/hero_files/bootstrap-responsive.css" rel="stylesheet">
@@ -140,11 +156,4 @@
       </footer>
 
     </div> <!-- /container -->
-
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="<?php echo base_url(); ?>assets/themes/default/hero_files/jquery.js"></script>
-    <script src="<?php echo base_url(); ?>assets/themes/default/hero_files/bootstrap-transition.js"></script>
-    <script src="<?php echo base_url(); ?>assets/themes/default/hero_files/bootstrap-collapse.js"></script>
 </body></html>
