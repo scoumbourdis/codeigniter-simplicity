@@ -1,5 +1,4 @@
-<h1>Example 3</h1>
-
-<p>This example doesn't have any template.</p>
-
-<p>This page is rended with the normal view, <a href="<?php echo base_url();?>">go back to home page</a></p>
+<div class="span7">
+	<h1>This is example 3</h1>
+	<p>This is the default template but we also rendered a right sidebar with the section function.</p>
+</div>

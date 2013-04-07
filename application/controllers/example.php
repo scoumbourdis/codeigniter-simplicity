@@ -29,7 +29,13 @@ class Example extends CI_Controller {
 
 	public function example_3()
 	{
-		$this->output->unset_template();
+		$this->load->section('sidebar', 'ci_simplicity/sidebar');
 		$this->load->view('ci_simplicity/example_3');
+	}
+
+	public function example_4()
+	{
+		$this->output->unset_template();
+		$this->load->view('ci_simplicity/example_4');
 	}
 }

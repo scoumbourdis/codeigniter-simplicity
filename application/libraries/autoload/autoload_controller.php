@@ -8,13 +8,13 @@ class CI_Controller {
 
 	/**
 	 *
-	 * @var CI_Loader
+	 * @var MY_Loader
 	 */
 	public $load;
 
 	/**
 	 *
-	 * @var CI_Output
+	 * @var MY_Output
 	 */
 	public $output;
 
