@@ -263,7 +263,7 @@ class MY_Output extends CI_Output {
 		return true;
 	}
 
-    public function add_canonical_metatag($url)
+    public function set_canonical($url)
     {
        $this->_canonical = $url;
     }

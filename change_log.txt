@@ -4,6 +4,6 @@ v.0.6
 	Set Template
 	Set Sections
 	Set Meta Data
+	Set Canonical Meta Data
 	Load CSS and JS files inside the view
 	Unset Template
-	
