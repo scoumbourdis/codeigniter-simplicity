@@ -174,26 +174,6 @@ class MY_Output extends CI_Output {
 			$data = array();
 
 			$css_files = $ci->load->get_css_files();
-
-			$cached_css_files = $ci->load->get_cached_css_files();
-			if(!empty($cached_css_files))
-			{
-				$cached_css_files_string = '';
-				foreach ($cached_css_files as $cahed_css_file) {
-					$cached_css_files_string .= str_replace(array("\n","\r","\t"),"",file_get_contents($cahed_css_file, FILE_USE_INCLUDE_PATH));
-				}
-
-				$cache_file_name = 'cache_'.md5(serialize($cached_css_files)).'.css';
-				$cache_file_path = 'assets/themes/default/css/'.$cache_file_name;
-
-				$fh = fopen($cache_file_path, 'w') or die("can't open file");
-				fwrite($fh, $cached_css_files_string);
-				fclose($fh);
-
-				$css_files[] = base_url().$cache_file_path;
-
-			}
-
 			$js_files = $ci->load->get_js_files();
 
 			$cached_js_files = $ci->load->get_cached_js_files();
