@@ -173,17 +173,6 @@ class MY_Output extends CI_Output {
 
 			$data = array();
 
-//			$data["errors"] = $this->get_messages("error");
-//			$data["info"] = $this->get_messages("info");
-//			$data["debug"] = $this->get_messages("debug");
-
-			if( !empty($data["errors"]) )
-				print_firebug($data["errors"]);
-			if( !empty($data["info"]) )
-				print_firebug($data["info"] );
-			if( !empty($data["debug"]) )
-				print_firebug($data["debug"]);
-
 			$css_files = $ci->load->get_css_files();
 
 			$cached_css_files = $ci->load->get_cached_css_files();
