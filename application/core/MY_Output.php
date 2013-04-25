@@ -57,10 +57,10 @@ class MY_Output extends CI_Output {
 		$this->set_mode(self::OUTPUT_MODE_NORMAL);
 	}
 
-	public function _meta_rdf_title_packet($title,$description,$keywords)
+	public function set_common_meta($title, $description, $keywords)
 	{
-		$this->add_meta("description",$description);
-		$this->add_meta("keywords",$keywords);
+		$this->add_meta("description", $description);
+		$this->add_meta("keywords", $keywords);
 		$this->set_title($title);
 	}
 
