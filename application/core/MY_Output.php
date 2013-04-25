@@ -117,10 +117,6 @@ class MY_Output extends CI_Output {
 		$this->_title = "{$title} - {$this->_title}";
 	}
 
-	function set_meta($name, $string){
-		$this->_meta[$name] = $string;
-	}
-
 	function set_message($message, $type="error"){
 // 		log_message($type, $message);
 		$this->_messages[$type] .= $message;
@@ -222,12 +218,12 @@ class MY_Output extends CI_Output {
 	/**
 	 * Adds meta tags.
 	 *
-	 * @access protected
+	 * @access public
 	 * @param string $name the name of the meta tag
-	 * @param string $content the content of the mneta tag
+	 * @param string $content the content of the meta tag
 	 * @return bool
 	 */
-	public function add_meta($name, $content){
+	public function set_meta($name, $content){
 		$this->_meta[$name] = $content;
 		return true;
 	}
