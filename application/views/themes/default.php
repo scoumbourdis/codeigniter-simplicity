@@ -11,19 +11,13 @@
 				?><meta name="<?php echo $name; ?>" content="<?php echo is_array($content) ? implode(", ", $content) : $content; ?>" /><?php
 		 }
 	?>
-		<meta name="publisher" content="John Skoumbourdis" />
 		<meta name="resource-type" content="document" />
 		<meta name="robots" content="all, index, follow"/>
 		<meta name="distribution" content="Global" />
-		<meta name="author" content="John Skoumbourdis" />
 		<meta name="abstract" content="<?php echo $title; ?>" />
 		<meta name="googlebot" content="all, index, follow" />
 		<meta name="title" content="<?php echo $title; ?>" />
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-		<script src="<?php echo base_url('assets/themes/default/js/jquery-1.9.1.min.js'); ?>"></script>
-		<script src="<?php echo base_url('assets/themes/default/hero_files/bootstrap-transition.js'); ?>"></script>
-		<script src="<?php echo base_url('assets/themes/default/hero_files/bootstrap-collapse.js'); ?>"></script>
 
 <?php
 		 foreach($css as $file){
