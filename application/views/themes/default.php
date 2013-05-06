@@ -1,34 +1,37 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
+<html lang="en">
+	<head>
 		<title><?php echo $title; ?></title>
-	<?php
-		if(!empty($meta))
-			foreach($meta as $name=>$content){
-				echo "\n\t\t";
-				?><meta name="<?php echo $name; ?>" content="<?php echo is_array($content) ? implode(", ", $content) : $content; ?>" /><?php
-		 }
-	?>
 		<meta name="resource-type" content="document" />
 		<meta name="robots" content="all, index, follow"/>
-		<meta name="distribution" content="Global" />
-		<meta name="abstract" content="<?php echo $title; ?>" />
 		<meta name="googlebot" content="all, index, follow" />
-		<meta name="title" content="<?php echo $title; ?>" />
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<?php
+	/** -- Copy from here -- */
+	if(!empty($meta))
+	foreach($meta as $name=>$content){
+		echo "\n\t\t";
+		?><meta name="<?php echo $name; ?>" content="<?php echo $content; ?>" /><?php
+			 }
+	echo "\n";
 
-<?php
-		 foreach($css as $file){
-		 	echo "\n\t\t";
-			?><link rel="stylesheet" href="<?php echo $file; ?>" type="text/css" /><?php
-		 } echo "\n\t";
+	if(!empty($canonical))
+	{
+		echo "\n\t\t";
+		?><link rel="canonical" href="<?php echo $canonical?>" /><?php
 
-		 foreach($js as $file){
-				echo "\n\t\t";
-				?><script src="<?php echo $file; ?>"></script><?php
-		 } echo "\n\t";
+	}
+	echo "\n\t";
+
+	foreach($css as $file){
+	 	echo "\n\t\t";
+		?><link rel="stylesheet" href="<?php echo $file; ?>" type="text/css" /><?php
+	} echo "\n\t";
+
+	foreach($js as $file){
+			echo "\n\t\t";
+			?><script src="<?php echo $file; ?>"></script><?php
+	} echo "\n\t";
+
+	/** -- to here -- */
 ?>
 
     <!-- Le styles -->
