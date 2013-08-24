@@ -59,8 +59,8 @@ class MY_Output extends CI_Output {
 
 	public function set_common_meta($title, $description, $keywords)
 	{
-		$this->add_meta("description", $description);
-		$this->add_meta("keywords", $keywords);
+		$this->set_meta("description", $description);
+		$this->set_meta("keywords", $keywords);
 		$this->set_title($title);
 	}
 
