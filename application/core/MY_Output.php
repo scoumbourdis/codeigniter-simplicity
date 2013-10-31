@@ -191,7 +191,10 @@ class MY_Output extends CI_Output {
 
 			}
 
-			//$this->_meta["keywords"] = implode(" ,", $this->_meta["keywords"]);
+			if (is_array($this->_meta["keywords"]))
+			{
+				$this->_meta["keywords"] = implode(" ,", $this->_meta["keywords"]);
+			}
 
 			$data["output"] = $output;
 			$data["messages"] = $this->_messages;
