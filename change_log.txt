@@ -1,5 +1,6 @@
 v 0.7
 	#5 - Fix error Array to string conversion by implode meta keywords if its value is array
+	Compatibility with Codeigniter 3.x
 v.0.6
 	Load CSS files
 	Load JS files
