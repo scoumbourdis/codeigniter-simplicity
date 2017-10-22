@@ -148,6 +148,10 @@ class MY_Output extends CI_Output {
 	function set_output_data($varname, $value){
 		$this->_output_data[$varname] = $value;
 	}
+	
+	function set_output_data_arr($arr){
+		$this->_output_data = $arr;	
+	}
 
 	private function get_template_output($output){
 
